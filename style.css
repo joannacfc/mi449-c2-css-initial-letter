@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+
+h2 {
+    text-align: center;
+    color: grey;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    margin-bottom: 20vh;
+    font-family: "Inter", sans-serif;
+}
+
+p {
+    width: 70ch;
+}
+
+.p1:first-letter {
+    font-family: "Merriweather", serif;
+    initial-letter: 8 2;
+    -webkit-initial-letter: 8 2;
+    font-weight: bold;
+    margin-right: 1rem;
+    margin-bottom: 10vh;
+    color: var(--indigo-8);
+    text-shadow: 0.25rem 0.25rem grey;
+}
+
+.p2:first-letter {
+    font-family: "Merriweather", serif;
+    initial-letter: 6 3;
+    -webkit-initial-letter: 6 3;
+    font-weight: bold;
+    margin-right: 1rem;
+    margin-bottom: 10vh;
+    color: var(--indigo-8);
+    text-shadow: 0.25rem 0.25rem grey;
+}
+
+.p3:first-letter {
+    font-family: "Merriweather", serif;
+    initial-letter: 4 2;
+    -webkit-initial-letter: 4 2;
+    font-weight: bold;
+    margin-right: 1rem;
+    color: var(--indigo-8);
+    text-shadow: 0.25rem 0.25rem grey;
+}
